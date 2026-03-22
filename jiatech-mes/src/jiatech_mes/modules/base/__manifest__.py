@@ -19,7 +19,7 @@
     """,
     
     'author': 'Jia Tech',
-    'website': 'https://www.jiatech.com',
+    'website': 'https://www.odoo123.com',
     
     'depends': [],
     

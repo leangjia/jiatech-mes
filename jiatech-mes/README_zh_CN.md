@@ -299,6 +299,6 @@ npm run lint
 
 ## 联系方式
 
-- 网站: https://www.jiatech.com
-- 文档: https://docs.jiatech.com
+- 网站: https://www.odoo123.com
+- 文档: https://docs.odoo123.com
 - GitHub: https://github.com/leangjia/jiatech-mes

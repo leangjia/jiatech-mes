@@ -82,8 +82,8 @@ test = [
 jiatech = "jiatech_mes.cli.command:main"
 
 [project.urls]
-Homepage = "https://www.jiatech.com"
-Documentation = "https://docs.jiatech.com"
+Homepage = "https://www.odoo123.com"
+Documentation = "https://docs.odoo123.com"
 Repository = "https://github.com/jiatech/jiatech-mes"
 
 [tool.setuptools.packages.find]
