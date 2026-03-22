@@ -12,7 +12,7 @@ from jiatech_mes.orm.fields import Field, Id, Char, Integer, Float, Boolean
 from jiatech_mes.orm.fields import Date, Datetime, Text, Html
 from jiatech_mes.orm.fields import Many2one, One2many, Many2many, Selection
 from jiatech_mes.orm.fields import Binary, Reference, Monetary
-from jiatech_mes.orm import api
+from jiatech_mes.orm.api import api
 from jiatech_mes.orm import environment
 from jiatech_mes.orm import registry
 from jiatech_mes.orm import recordset

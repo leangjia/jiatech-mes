@@ -258,6 +258,16 @@ class ApiDecorators:
 
 api = ApiDecorators()
 
+model = api.model
+depends = api.depends
+onchange = api.onchange
+constrains = api.constrains
+depends_context = api.depends_context
+onchange_depends = api.onchange_depends
+returns = api.returns
+with_context = api.with_context
+invalidate_cache = api.invalidate_cache
+
 
 class ApiContext:
     """Context manager for API operations.
