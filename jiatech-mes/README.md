@@ -1,19 +1,21 @@
 # Jia Tech MES System - Planning Documents
 
+[![中文](README_zh_CN.md)](README_zh_CN.md)
+
 ## Overview
 
 This directory contains the comprehensive planning documents for developing Jia Tech's proprietary Manufacturing Execution System (MES). Inspired by Odoo 18's elegant architecture, our system combines modern Python features with a clean, extensible design for semiconductor and electronic manufacturing operations.
 
 ## Document Index
 
-| Document | Description |
-|----------|-------------|
-| [skill.md](skill.md) | Skills definition and competency requirements |
-| [agent.md](agent.md) | AI agent architecture and automation workflows |
-| [architecture.md](architecture.md) | System architecture design (Odoo-inspired) |
-| [modules.md](modules.md) | Module design specifications |
-| [coding-standards.md](coding-standards.md) | Coding standards and best practices |
-| [roadmap.md](roadmap.md) | Development timeline and milestones |
+| Document | Description | 中文 |
+|----------|-------------|------|
+| [skill.md](skill.md) | Skills definition and competency requirements | [skill_zh_CN.md](skill_zh_CN.md) |
+| [agent.md](agent.md) | AI agent architecture and automation workflows | [agent_zh_CN.md](agent_zh_CN.md) |
+| [architecture.md](architecture.md) | System architecture design (Odoo-inspired) | [architecture_zh_CN.md](architecture_zh_CN.md) |
+| [modules.md](modules.md) | Module design specifications | [modules_zh_CN.md](modules_zh_CN.md) |
+| [coding-standards.md](coding-standards.md) | Coding standards and best practices | [coding-standards_zh_CN.md](coding-standards_zh_CN.md) |
+| [roadmap.md](roadmap.md) | Development timeline and milestones | [roadmap_zh_CN.md](roadmap_zh_CN.md) |
 
 ## Quick Summary
 
@@ -139,3 +141,9 @@ jiatech-mes/
 ## License
 
 Proprietary - Jia Tech Corporation
+
+## Chinese Documentation / 中文文档
+
+For Chinese documentation, please refer to [README_zh_CN.md](README_zh_CN.md).
+
+详细的系统文档请查看 [中文文档索引](./README_zh_CN.md)。
