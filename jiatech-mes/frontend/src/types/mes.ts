@@ -13,7 +13,7 @@ export interface PaginatedResponse<T> extends ApiResponse<T[]> {
 
 export interface MesModel {
   id: number;
-  name: string;
+  name?: string;
   create_date?: string;
   write_date?: string;
   create_uid?: number;

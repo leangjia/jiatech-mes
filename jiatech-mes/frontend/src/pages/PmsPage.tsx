@@ -75,7 +75,9 @@ function PmsPage() {
     { title: 'Request Date', dataIndex: 'request_date', key: 'request_date' },
   ];
 
-  const scheduleColumns = [
+  // Schedule columns for future table view
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const _scheduleColumns = [
     { title: 'Schedule', dataIndex: 'name', key: 'name' },
     { title: 'Equipment', dataIndex: 'equipment_id', key: 'equipment_id' },
     { title: 'Period', dataIndex: 'period', key: 'period', 

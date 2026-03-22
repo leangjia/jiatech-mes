@@ -62,7 +62,7 @@ function AlmPage() {
       render: (t: string) => <Tag color={getAlarmColor(t)}>{t.toUpperCase()}</Tag> },
     { title: 'Source', dataIndex: 'source', key: 'source' },
     { title: 'Priority', dataIndex: 'priority', key: 'priority',
-      render: (p: number) => <Badge count={p} showAsOverlay /> },
+      render: (p: number) => <Badge count={p} /> },
     { title: 'State', dataIndex: 'state', key: 'state',
       render: (s: string) => <Tag color={getStateColor(s)}>{s}</Tag> },
     { title: 'Time', dataIndex: 'create_date', key: 'create_date' },

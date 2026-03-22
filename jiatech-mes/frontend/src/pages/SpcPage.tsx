@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Table, Card, Statistic, Row, Col, Tag, Button, Space } from 'antd';
+import { Table, Card, Statistic, Row, Col, Tag, Button } from 'antd';
 import { useSearch } from '@/hooks/useMesApi';
 import type { MesModel } from '@/types/mes';
 
@@ -13,8 +13,8 @@ interface SpcParameter extends MesModel {
   lower_spec_limit: number;
 }
 
-interface SpcAlarm {
-  id: number;
+interface SpcAlarm extends MesModel {
+  name?: string;
   parameter_id: number;
   alarm_type: 'ucl' | 'lcl' | 'usl' | 'lsl';
   lot_id: number;

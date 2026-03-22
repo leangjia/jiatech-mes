@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Table, Card, Statistic, Row, Col, Tag, Button, Space, Tabs } from 'antd';
+import { Table, Card, Statistic, Row, Col, Tag, Button, Tabs } from 'antd';
 import { useSearch } from '@/hooks/useMesApi';
 import type { MesModel } from '@/types/mes';
 
