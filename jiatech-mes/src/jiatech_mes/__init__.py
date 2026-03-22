@@ -33,6 +33,13 @@ from jiatech_mes.orm import (
 )
 from jiatech_mes.orm.registry import Registry, get_default_registry
 
+from jiatech_mes.modules.base import *
+from jiatech_mes.modules.wip import *
+from jiatech_mes.modules.mm import *
+from jiatech_mes.modules.ras import *
+from jiatech_mes.modules.edc import *
+from jiatech_mes.modules.tcard import *
+
 __all__ = [
     '__version__',
     'BaseModel',
