@@ -36,18 +36,34 @@ const menuItems = [
     key: '/spc',
     label: 'SPC',
     children: [
+      { key: '/spc/control', label: 'Control Charts' },
       { key: '/spc/jobs', label: 'SPC Jobs' },
       { key: '/spc/data', label: 'Data' },
-      { key: '/spc/alarms', label: 'Alarms' },
+    ],
+  },
+  {
+    key: '/pms',
+    label: 'Maintenance',
+    children: [
+      { key: '/pms/maintenance', label: 'Maintenance' },
+      { key: '/pms/schedules', label: 'Schedules' },
+    ],
+  },
+  {
+    key: '/alm',
+    label: 'Alarms',
+    children: [
+      { key: '/alm/alarms', label: 'Alarm List' },
+      { key: '/alm/rules', label: 'Rules' },
     ],
   },
   {
     key: '/qms',
     label: 'Quality',
     children: [
+      { key: '/qms/quality', label: 'Quality' },
       { key: '/qms/defects', label: 'Defects' },
       { key: '/qms/ncr', label: 'NCR' },
-      { key: '/qms/inspections', label: 'Inspections' },
     ],
   },
 ];

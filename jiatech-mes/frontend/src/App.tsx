@@ -5,6 +5,10 @@ import Dashboard from '@pages/Dashboard';
 import LotList from '@pages/LotList';
 import ProductList from '@pages/ProductList';
 import EquipmentList from '@pages/EquipmentList';
+import SpcPage from '@pages/SpcPage';
+import PmsPage from '@pages/PmsPage';
+import AlmPage from '@pages/AlmPage';
+import QmsPage from '@pages/QmsPage';
 
 const { Header, Content, Sider } = Layout;
 
@@ -33,6 +37,10 @@ function App() {
               <Route path="/wip/lots" element={<LotList />} />
               <Route path="/mm/products" element={<ProductList />} />
               <Route path="/ras/equipment" element={<EquipmentList />} />
+              <Route path="/spc/control" element={<SpcPage />} />
+              <Route path="/pms/maintenance" element={<PmsPage />} />
+              <Route path="/alm/alarms" element={<AlmPage />} />
+              <Route path="/qms/quality" element={<QmsPage />} />
             </Routes>
           </Content>
         </Layout>
